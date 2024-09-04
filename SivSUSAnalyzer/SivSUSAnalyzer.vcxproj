@@ -124,6 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\SivSUSAnalyzer.hpp" />
+    <ClInclude Include="include\SivSUSAnalyzer\Metadata.hpp" />
+    <ClInclude Include="include\SivSUSAnalyzer\Score.hpp" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -9,6 +9,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Header Files\SivSUSAnalyzer">
+      <UniqueIdentifier>{e008d940-651f-4047-86ae-aac7c5fdc0cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -21,6 +24,12 @@
     </ClInclude>
     <ClInclude Include="include\SivSUSAnalyzer.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SivSUSAnalyzer\Metadata.hpp">
+      <Filter>Header Files\SivSUSAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SivSUSAnalyzer\Score.hpp">
+      <Filter>Header Files\SivSUSAnalyzer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
