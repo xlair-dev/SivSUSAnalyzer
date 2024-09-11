@@ -5,7 +5,7 @@
 #include <ThirdParty/Catch2/catch.hpp>
 
 void Main() {
-    Console.open();
+    s3d::Console.open();
 
     Catch::Session session;
     session.useConfigData({
