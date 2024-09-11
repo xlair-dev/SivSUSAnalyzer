@@ -27,7 +27,7 @@ namespace SivSUSAnalyzer {
         double        baseBPM = 60.0;
         s3d::Array<s3d::String> requests;
 
-        bool SetEntry(const MetadataEntry& entry);
+        bool parseMetadataEntry(const MetadataEntry& entry);
     };
 
     Metadata ParseMetadata(const s3d::String& data);
