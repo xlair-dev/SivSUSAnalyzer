@@ -24,7 +24,7 @@ namespace SivSUSAnalyzer {
         s3d::FilePath background;
         s3d::FilePath movie;
         double        movieOffset = 0.0;
-        double        baseBPM = 60.0;
+        double        baseBPM = 120.0;
         s3d::Array<s3d::String> requests;
 
         bool parseMetadataEntry(const MetadataEntry& entry);

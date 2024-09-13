@@ -1,0 +1,17 @@
+Music info
+#TITLE "example title"
+#ARTIST "example artist"
+#DESIGNER "example designer"
+#DIFFICULTY 3
+#PLAYLEVEL 12+
+#SONGID "example"
+#WAVE "example.wav"
+#WAVEOFFSET -1.475
+#JACKET "example.png"
+
+Request
+#REQUEST "ticks_per_beat 384"
+#REQUEST "metronome enabled"
+#REQUEST "segments_per_second 20"
+
+BPM
